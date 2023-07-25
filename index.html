@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea House</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./images/banner.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+       
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+        .bg-gradient{
+            background-image: linear-gradient(270deg, #F00, #FF8938 );
+        }
+      </style>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'bg-gradient': "linear-gradient(270deg, #FF8938, #F00"
+              }
+            }
+          }
+        }
+      </script>
+  </head>
+  <body class="font-manrope">
+    <header class="container mx-auto">
+        <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              <div>
+                <img src="./images/banner.png" class=" rounded-lg " />
+              </div>
+              <div>
+                <h1 class="text-7xl font-extrabold">
+                    It's good  <br>
+                    tea time at The <br>
+                    Tea House</h1>
+                <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
+                <button class="btn bg-gradient text-white">Get Started
+                    <img src="./images/arrow.png" alt="">
+                </button>
+              </div>
+              
+
+            </div>
+          </div>
+          
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
